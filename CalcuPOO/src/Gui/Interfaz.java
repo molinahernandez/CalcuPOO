@@ -52,7 +52,7 @@ public class Interfaz extends JPanel {
 
         textF1.setEditable(true);
         textF3.setEditable(true);
-        textF2.setEditable(false);
+        textF2.setEditable(true);
 
         button.addActionListener(new ActionListener() {
             @Override
