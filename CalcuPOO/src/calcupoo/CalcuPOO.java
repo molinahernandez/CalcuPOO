@@ -3,19 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package calcupoo;
+package CalcuPOO;
 
+import Gui.Interfaz;
+import AritmeticaMain.Aritmetica;
+import ConverMain.Conver;
+import javax.swing.JFrame;
 /**
  *
  * @author Cristian Hernandez
  */
 public class CalcuPOO {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+
+        JFrame Interfaz = new JFrame("Calcu");
+        Interfaz.setContentPane(new Interfaz());
+        Interfaz.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Interfaz.setResizable(false);
+        Interfaz.pack();
+        Interfaz.setVisible(true);
+    } 
 }
