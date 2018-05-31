@@ -14,7 +14,6 @@ import Main.AbstractFactory;
 public class AritmeticFactory implements AbstractFactory {
 
     public AritmeticFactory() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public Aritmetica getAritmetica(String type) {
